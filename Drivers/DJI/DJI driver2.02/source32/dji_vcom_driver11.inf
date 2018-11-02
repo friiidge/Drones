@@ -1,0 +1,68 @@
+; 
+; dji-innovations
+;
+
+[Version] 
+Signature="$Windows NT$" 
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318} 
+Provider=%DJI% 
+DriverVer =12/06/2012, 5.1.2600.5512
+CatalogFile=djidriver.cat
+
+[Manufacturer] 
+%DJI%=DeviceList,ntamd64
+
+;------------------------------------------------------------------------------
+;  Device list
+;------------------------------------------------------------------------------
+
+[DeviceList]
+%DJIVCOM%  =XP40, USB\VID_FFF0&PID_0008&MI_00 
+%DJIVCOM%  =XP40, USB\VID_FFF0&PID_0008  
+
+[DeviceList.ntamd64]
+%DJIVCOM%  =XP40, USB\VID_FFF0&PID_0008&MI_00 
+%DJIVCOM%  =XP40, USB\VID_FFF0&PID_0008 
+
+;------------------------------------------------------------------------------
+;  Installation
+;------------------------------------------------------------------------------
+
+[SourceDisksNames]
+
+[SourceDisksFiles]
+
+
+[DestinationDirs] 
+FakeModemCopyFileSection=12
+DefaultDestDir = 12
+
+[XP40] 
+include=mdmcpq.inf
+CopyFiles=FakeModemCopyFileSection
+AddReg=XP40.AddReg 
+
+[XP40.AddReg] 
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[XP40.Services] 
+AddService=usbser, 0x00000002, DriverService
+
+[DriverService] 
+DisplayName=%DRIVER.SVC% 
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys 
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+
+[Strings] 
+DJI        = "dji-innovations inc."
+DRIVER.SVC = "DJI USB Virtual COM Driver"
+DJIVCOM    = "DJI USB Virtual COM"
