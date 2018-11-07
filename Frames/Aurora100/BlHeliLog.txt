@@ -1,0 +1,69 @@
+Running - OS: <strong>Windows</strong>, Chrome: <strong>70.0.3538.77</strong>, Configurator: <strong>1.1.0</strong>
+Last used port wasn't saved "yet", auto-select disabled.
+Uncaught Error: Not found chrome-extension://mejfjggmbnocnfibbibmoogocnjbcjnk/js/libraries/q.js 134 29 Error: Not found
+    at Object.callback (chrome-extension://mejfjggmbnocnfibbibmoogocnjbcjnk/js/flashing_helpers.js:170:29)
+    at safeCallbackApply (extensions::uncaught_exception_handler:27:15)
+    at handleResponse (extensions::sendRequest:67:7)
+Connecting to: COM30
+SERIAL: Connection opened with ID: 5, Baud: 115200
+Serial port <span style="color: green">successfully</span> opened with ID: 5
+MultiWii API version <span style="color: green">received</span> - <strong>1.22.0</strong>
+MSP data request timed-out: 2
+MSP data request timed-out: 3
+Flight controller info, identifier: <strong>BTFL</strong>, version: <strong>3.1.0</strong>
+MSP data request timed-out: 5
+Running firmware released on: <strong>Dec  2 2016 16:47:34</strong>
+Board: <strong>OMNI</strong>, version: <strong>0</strong>
+Unique device ID <span style="color: green">received</span> - <strong>0x36002a5933571120333337</strong>
+Reading setup
+sending cmd_DeviceInitFlash 0 0
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 0
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 1
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 1
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 2
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 2
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 3
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 3
+received cmd_DeviceReset ACK_OK 0 0
+Reading setup <span style="color: green">finished</span>
+Reading setup
+sending cmd_DeviceInitFlash 0 0
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 0
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 1
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 1
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 2
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 2
+received cmd_DeviceReset ACK_OK 0 0
+sending cmd_DeviceInitFlash 0 3
+received cmd_DeviceInitFlash ACK_OK 0 178,232,100,1
+sending cmd_DeviceRead 1a00 112
+received cmd_DeviceRead ACK_OK 1a00 16,5,33,255,255,255,255,255,255,9,255,1,255,85,170,1,255,255,255,255,255,3,255,255,255,37,208,40,80,4,255,2,255,122,255,7,1,255,255,0,0,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,35,70,95,72,95,52,48,35,32,32,32,32,32,32,32,32,35,66,76,72,69,76,73,36,69,70,77,56,66,50,49,35,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32
+sending cmd_DeviceReset 0 3
+received cmd_DeviceReset ACK_OK 0 0
+Reading setup <span style="color: green">finished</span>
